@@ -128,11 +128,11 @@ printArray(q, n);
 printf("Merge Sort: "); 
 printArray(m, n); 
 printf("\nStep Comparison\n"); 
-printf("Bubble Sort Steps:    %d\n", bubble_sort); 
+printf("Bubble Sort Steps:  %d\n", bubble_sort); 
 printf("Insertion Sort Steps: %d\n", insertion_sort); 
-printf("Quick Sort Steps:     
-printf("Merge Sort Steps:    
+printf("Quick Sort Steps:  %d\n", quick_sort); 
+printf("Merge Sort Steps: %d\n", merge_sort);
+   
+    
 return 0; 
 } 
-%d\n", quick_sort); 
- %d\n", merge_sort);
